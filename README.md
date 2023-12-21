@@ -1,10 +1,11 @@
 # Moonlight-uwp csharp-only branch 
 
-Moonlight-Windows RnD
+Moonlight-Windows client RnD
 
 ## About the original
 Moonlight-Windows is the (a) famous "Video Screen streaming service". 
-Sadly, its W10M developing stopped... No new features. I am interesting in NVidea tech. :)
+Sadly, W10M-related Moonlight-Windows branch was cancelled/archived... 
+No new features... I am interesting in NVidea-like game streaming tech. :)
 
 ## Screenshot(s)
 ![](Images/shot01.png)
@@ -16,6 +17,12 @@ Sadly, its W10M developing stopped... No new features. I am interesting in NVide
 ## Result
 - Draft / Damaged
 - I haven't much time... but I'm still trying to complete my strange "Moonlight uwp reburn" idea
+
+## Servers
+To make Moonlight-uwp test&work, you need a Server, you can use one of the following ones:
+
+- Sunshine. The recommended open source solution (https://github.com/LizardByte/Sunshine). Instead of NVidea things, it compatible with Windows/macOS/Linix and with any GPU. 
+
 
 ## References / License
 - https://github.com/moonlight-stream/moonlight-windows GameStream client for Windows Phone (Discontinued)

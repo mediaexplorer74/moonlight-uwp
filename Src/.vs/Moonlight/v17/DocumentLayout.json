@@ -1,71 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{13933125-1F45-4EBA-A693-AD5DF52BA913}|Moonlight\\Moonlight.csproj|c:\\users\\admin\\source\\repos\\moonlight-uwp\\src\\moonlight\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
-      "RelativeMoniker": "D:0:0:{13933125-1F45-4EBA-A693-AD5DF52BA913}|Moonlight\\Moonlight.csproj|solutionrelative:moonlight\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Moonlight||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13933125-1F45-4EBA-A693-AD5DF52BA913}|Moonlight\\Moonlight.csproj|c:\\users\\admin\\source\\repos\\moonlight-uwp\\src\\moonlight\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13933125-1F45-4EBA-A693-AD5DF52BA913}|Moonlight\\Moonlight.csproj|solutionrelative:moonlight\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13933125-1F45-4EBA-A693-AD5DF52BA913}|Moonlight\\Moonlight.csproj|c:\\users\\admin\\source\\repos\\moonlight-uwp\\src\\moonlight\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|aca4ca7d-e28d-419e-929c-0df9627acd26"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\mediaexplorer74\\moonlight-uwp\\Src\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "Moonlight\\Package.appxmanifest",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\Package.appxmanifest",
-              "RelativeToolTip": "Moonlight\\Package.appxmanifest",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2023-12-21T20:36:43.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Moonlight",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\Moonlight.csproj",
-              "RelativeDocumentMoniker": "Moonlight\\Moonlight.csproj",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\Moonlight.csproj",
-              "RelativeToolTip": "Moonlight\\Moonlight.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2023-12-21T20:32:50.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Moonlight\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\moonlight-uwp\\Src\\Moonlight\\App.xaml.cs",
-              "RelativeToolTip": "Moonlight\\App.xaml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwC8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T20:32:13.668Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
