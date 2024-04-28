@@ -6,7 +6,8 @@ My RnD of archived [Moonlight-Windows](https://github.com/moonlight-stream/moonl
 Moonlight Windows development is on hold until Windows apps support real time streaming of raw h264. We will provide any updates if this changes. We're sorry for the inconvenience and hope that we can get this up and running as soon as possible.
 
 ## Screenshot(s)
-![](Images/shot01.png)
+![W11 Tiny](Images/shot01.png)
+![W10M](Images/shot02.png)
 
 ## My 2 cents
 - Moonlight Micro-RnD (Fast C# code research)
