@@ -13,11 +13,12 @@ Moonlight Windows development is on hold until Windows apps support real time st
 - Moonlight Micro-RnD (Fast C# code research)
 - Moonlight-common-binding (C++ code tweaked a little)
 
-Note: Moonlight Windows is in development and is not considered stable. 
 
 ## A few words about the original Moonlight-Windows project
+Note: Moonlight Windows is in development and is not considered stable. 
+
 Moonlight is an open source implementation of NVIDIA's GameStream, as used by the NVIDIA Shield.
-We reverse-engineered the Shield streaming software, and created a version that can be run on any Windows 10 (Mobile )device, in theory. :) Moonlight Windows is built on the Windows Runtime (WinRT). 
+We reverse-engineered the Shield streaming software, and created a version that can be run on any Windows 10 (Mobile) device, in theory. :) Moonlight Windows is built on the Windows Runtime (WinRT). 
 
 Moonlight will allow you to stream your full collection of games from your PC to your Windows or Windows Phone device,
 in your own home, or over the internet.
