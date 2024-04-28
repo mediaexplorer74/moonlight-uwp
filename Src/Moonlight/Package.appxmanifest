@@ -11,7 +11,7 @@
     Publisher="CN=Admin"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="96dda8da-78f3-4ad5-9624-b6894fedd625" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="96dda8da-78f3-4ad5-9624-b6894fedd655" PhonePublisherId="86340000-8400-0031-0050-077000700055"/>
 
   <Properties>
     <DisplayName>Moonlight</DisplayName>

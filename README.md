@@ -1,4 +1,4 @@
-# Moonlight-UWP - cpp branch
+# Moonlight-UWP v1.0-alpha - cpp branch
 
 My RnD of archived [Moonlight-Windows](https://github.com/moonlight-stream/moonlight-windows) project.
 
@@ -50,15 +50,16 @@ in your own home, or over the internet.
 - Write code
 - Send Pull Requests
 
+## Status / TODO
+- Connection to RemotePC brocken (obsolete?)
+- Compare moonlight-windows and [moonlight-xbox](https://github.com/TheElixZammuto/moonlight-xbox) projects
+- Create PoC / MVP
+
 ## References to Authors / License
 - [Moonlight-Windows](https://github.com/moonlight-stream/moonlight-windows) project (archived)
 - [Michelle Bergeron](https://github.com/mrb113)
 - [Cameron Gutman](https://github.com/cgutman)
 - MIT
-
-##Other Official Versions:
-[Moonlight](https://github.com/moonlight-stream) also has an Android
-implementation, and versions for PC and iOS are currently in development.
 
 ## .
 As is. No support. RnD only. DIY.
