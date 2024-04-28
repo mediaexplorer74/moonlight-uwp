@@ -1,7 +1,7 @@
 ﻿namespace Moonlight
 {
     using Moonlight.Utils;
-   // using Moonlight_common_binding;
+    using Moonlight_common_binding;
     using System;
     using System.Diagnostics;
     using System.Text.RegularExpressions;
@@ -49,10 +49,8 @@
             // Launch a new game if nothing is running
             if (currentGameString == null || currentGameString.Equals("0"))
             {
-                XmlQuery x = new XmlQuery(nv.BaseUrl + "/launch?uniqueid=" + nv.GetUniqueId()
-                    + "&appid=" + context.appId +
-                    "&mode=" + streamConfig.GetWidth() + "x" + streamConfig.GetHeight()
-                    + "x" + streamConfig.GetFps() +
+                XmlQuery x = new XmlQuery(nv.BaseUrl + "/launch?uniqueid=" + nv.GetUniqueId() + "&appid=" + context.appId +
+                    "&mode=" + streamConfig.GetWidth() + "x" + streamConfig.GetHeight() + "x" + streamConfig.GetFps() +
                     "&additionalStates=1&sops=1" + // FIXME: make sops configurable
                     riConfigString);
 

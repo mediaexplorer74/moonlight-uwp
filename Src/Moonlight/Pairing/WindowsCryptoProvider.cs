@@ -171,7 +171,8 @@
             IBuffer buf = arr.AsBuffer();
             string pfx = CryptographicBuffer.EncodeToBase64String(buf);
 
-            await CertificateEnrollmentManager.ImportPfxDataAsync(pfx, password, ExportOption.NotExportable, KeyProtectionLevel.NoConsent, InstallOptions.None, friendlyName);
+            await CertificateEnrollmentManager.ImportPfxDataAsync(pfx, password, 
+                ExportOption.NotExportable, KeyProtectionLevel.NoConsent, InstallOptions.None, friendlyName);
         }
         #endregion Cert Store
 
@@ -194,8 +195,29 @@
             await AddToWinCertStore();
 
             // Read the modified cert from the cert store
-            IEnumerable<Certificate> certificates = await CertificateStores.FindAllAsync(new CertificateQuery { FriendlyName = "Limelight-Client" });
-            cert = new X509CertificateParser().ReadCertificate(certificates.Single().GetCertificateBlob().AsStream());
+            IEnumerable<Certificate> certificates = await CertificateStores.FindAllAsync
+                (
+                    new CertificateQuery 
+                    { 
+                        FriendlyName = "Limelight-Client" 
+                    }
+                );
+
+            Stream CStream = default;
+
+            try
+            {
+                CStream = certificates.Single().GetCertificateBlob().AsStream();
+            }
+            catch 
+            {
+                //PLAN B
+                settings.Values["cert"] = "test_cert";
+                settings.Values["key"] = "test_key";
+                return;
+            }
+
+            cert = new X509CertificateParser().ReadCertificate( CStream );
 
             certWriter.WriteObject(cert);
             certWriter.Writer.Flush();

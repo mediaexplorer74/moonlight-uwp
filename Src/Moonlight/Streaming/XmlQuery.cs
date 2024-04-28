@@ -175,8 +175,21 @@ namespace Moonlight
             // Allow the crypto provider to generate the cert if needed
             await new WindowsCryptoProvider().InitializeCryptoProviderKeys();
 
-            IEnumerable<Certificate> certificates = await CertificateStores.FindAllAsync(new CertificateQuery { FriendlyName = "Limelight-Client" });
-            filter.ClientCertificate = certificates.Single();
+            IEnumerable<Certificate> certificates = await CertificateStores.FindAllAsync(new CertificateQuery 
+            { 
+                FriendlyName = "Limelight-Client" }
+            );
+
+            filter.ClientCertificate = default;
+
+            try
+            {
+                filter.ClientCertificate = certificates.Single();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("[ex] GetXml error: " + ex.Message);
+            }
 
             client = new Windows.Web.Http.HttpClient(filter);
             Debug.WriteLine(uri);

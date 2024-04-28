@@ -17567,12 +17567,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight\\Moonlight.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight\\Moonlight.csproj",
       "projectName": "Moonlight",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight\\Moonlight.csproj",
-      "projectJsonPath": "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight\\project.json",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight\\Moonlight.csproj",
+      "projectJsonPath": "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight\\project.json",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -17589,8 +17589,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight-common-binding\\Moonlight-common-binding.vcxproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\moonlight-windows\\Moonlight-common-binding\\Moonlight-common-binding.vcxproj"
+            "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight-common-binding\\Moonlight-common-binding.vcxproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\!RnD\\moonlight-uwp\\Moonlight-common-binding\\Moonlight-common-binding.vcxproj"
             }
           }
         }

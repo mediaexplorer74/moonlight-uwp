@@ -1,6 +1,6 @@
 ﻿namespace Moonlight
 {
-    //using Moonlight_common_binding;
+    using Moonlight_common_binding;
     using SharpDX.Multimedia;
     using SharpDX.XAudio2;
     using System;
@@ -77,8 +77,7 @@
         /// <summary>
         /// Video stream source sample requested callback
         /// </summary>
-        private void _videoMss_SampleRequested(MediaStreamSource sender,
-            MediaStreamSourceSampleRequestedEventArgs args)
+        private void _videoMss_SampleRequested(MediaStreamSource sender, MediaStreamSourceSampleRequestedEventArgs args)
         {
             _streamSource.VideoSampleRequested(args);
         }

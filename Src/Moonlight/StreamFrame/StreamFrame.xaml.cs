@@ -1,7 +1,7 @@
 ﻿namespace Moonlight
 {
     using Moonlight.Streaming;
-   // using Moonlight_common_binding;
+    using Moonlight_common_binding;
     using System;
     using System.Threading;
     using Windows.Devices.Input;
@@ -184,8 +184,7 @@
             // GameStream only supports vertical scrolling for now
             if (!props.IsHorizontalMouseWheel)
             {
-                MoonlightCommonRuntimeComponent.SendScrollEvent((short) (
-                    props.MouseWheelDelta / 120));
+                MoonlightCommonRuntimeComponent.SendScrollEvent((short) (props.MouseWheelDelta / 120));
             }
         }
 
@@ -205,20 +204,17 @@
                 int deltaButtons = mouseButtonFlag ^ GetButtonFlags(ptrPt);
                 if ((deltaButtons & MOUSE_BUTTON_LEFT) != 0)
                 {
-                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent(
-                        (byte)MouseButtonAction.Press,
+                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent((byte)MouseButtonAction.Press,
                         (int)MouseButton.Left);
                 }
                 if ((deltaButtons & MOUSE_BUTTON_MIDDLE) != 0)
                 {
-                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent(
-                        (byte)MouseButtonAction.Press,
+                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent((byte)MouseButtonAction.Press,
                         (int)MouseButton.Middle);
                 }
                 if ((deltaButtons & MOUSE_BUTTON_RIGHT) != 0)
                 {
-                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent(
-                        (byte)MouseButtonAction.Press,
+                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent((byte)MouseButtonAction.Press,
                         (int)MouseButton.Right);
                 }
                 mouseButtonFlag = GetButtonFlags(ptrPt);
@@ -255,8 +251,7 @@
                     }
 
                     // Raise the mouse button
-                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent(
-                        (byte)MouseButtonAction.Release, (int)MouseButton.Left);
+                    MoonlightCommonRuntimeComponent.SendMouseButtonEvent((byte)MouseButtonAction.Release, (int)MouseButton.Left);
                 }
             }
             else
@@ -330,11 +325,8 @@
         private void WindowKeyDownHandler(CoreWindow sender, KeyEventArgs args)
         {
             // Watch for Ctrl+Alt+Shift to toggle mouse binding
-            if ((KeyboardHelper.GetModifierFlags() 
-                & (byte)(Modifier.ModifierShift | Modifier.ModifierAlt 
-                | Modifier.ModifierCtrl)) ==
-                (byte)(Modifier.ModifierShift | Modifier.ModifierAlt 
-                | Modifier.ModifierCtrl))
+            if ((KeyboardHelper.GetModifierFlags() & (byte)(Modifier.ModifierShift | Modifier.ModifierAlt | Modifier.ModifierCtrl)) ==
+                (byte)(Modifier.ModifierShift | Modifier.ModifierAlt | Modifier.ModifierCtrl))
             {
                 if (capturingMouse)
                 {

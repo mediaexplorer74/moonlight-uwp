@@ -1,36 +1,67 @@
-# Moonlight-uwp csharp-only branch 
+# Moonlight-UWP - cpp branch
 
-Moonlight-Windows client RnD
+My RnD of archived [Moonlight-Windows](https://github.com/moonlight-stream/moonlight-windows) project.
 
-## About the original
-Moonlight-Windows is the (a) famous "Video Screen streaming service". 
-Sadly, W10M-related Moonlight-Windows branch was cancelled/archived... 
-No new features... I am interesting in NVidea-like game streaming tech. :)
+## About 
+Moonlight Windows development is on hold until Windows apps support real time streaming of raw h264. We will provide any updates if this changes. We're sorry for the inconvenience and hope that we can get this up and running as soon as possible.
 
 ## Screenshot(s)
 ![](Images/shot01.png)
 
 ## My 2 cents
-- Moonlight Micro-RnD (Fast code/architecture research)
-- Moonlight-common-binding C++ -> C# code "rebase" ("refactor.") - 5 % ready  
+- Moonlight Micro-RnD (Fast C# code research)
+- Moonlight-common-binding (C++ code tweaked a little)
 
-## Result
-- Draft / Damaged
-- I haven't much time... but I'm still trying to complete my strange "Moonlight uwp reburn" idea
+Note: Moonlight Windows is in development and is not considered stable. 
 
-## Servers
-To make Moonlight-uwp test&work, you need a Server, you can use one of the following ones:
+## A few words about the original Moonlight-Windows project
+Moonlight is an open source implementation of NVIDIA's GameStream, as used by the NVIDIA Shield.
+We reverse-engineered the Shield streaming software, and created a version that can be run on any Windows 10 (Mobile )device, in theory. :) Moonlight Windows is built on the Windows Runtime (WinRT). 
 
-- Sunshine. The recommended open source solution (https://github.com/LizardByte/Sunshine). Instead of NVidea things, it compatible with Windows/macOS/Linix and with any GPU. 
+Moonlight will allow you to stream your full collection of games from your PC to your Windows or Windows Phone device,
+in your own home, or over the internet.
 
+## Features
+* Streams any of your Steam games from your PC to your Windows device
+* Automatically finds GameStream-compatible PCs on your network
 
-## References / License
-- https://github.com/moonlight-stream/moonlight-windows GameStream client for Windows Phone (Discontinued)
+## TODO (Features in development)
+* Keyboard and Controller support
+
+## Installation
+* Moonlight Windows is in development and not yet available for free download in the Store. If you want to try it in the meantime, download the source and deploy the app to your phone. 
+* Download [GeForce Experience](http://www.geforce.com/geforce-experience) and install on your Windows PC
+
+## Requirements
+* [GameStream compatible](http://shield.nvidia.com/play-pc-games/) computer with GTX 600/700 series GPU
+* PC, Windows tablet, or even Windows phone running Windows 10 Mobile 10240 or higher... =) 
+
+## Usage
+* Turn on GameStream in the GFE settings
+* If you are connecting from outside the same network, turn on internet
+  streaming
+* When on the same network as your PC, open Moonlight and tap on your PC in the list and then tap "Pair With PC"
+* Accept the pairing confirmation on your PC
+* Try to play some games remotely :)
+
+## Contribute 
+- Fork it and set up a solution in Visual Studio 2022 
+- Add [Moonlight Common](https://github.com/moonlight-stream/moonlight-common-c) as a project in your solution
+- Write code
+- Send Pull Requests
+
+## References to Authors / License
+- [Moonlight-Windows](https://github.com/moonlight-stream/moonlight-windows) project (archived)
+- [Michelle Bergeron](https://github.com/mrb113)
+- [Cameron Gutman](https://github.com/cgutman)
 - MIT
 
-## ..
-As is. No support. RnD only. DIY
+##Other Official Versions:
+[Moonlight](https://github.com/moonlight-stream) also has an Android
+implementation, and versions for PC and iOS are currently in development.
 
 ## .
-[m][e] 2023
+As is. No support. RnD only. DIY.
 
+## ..
+[m][e] 2024

@@ -11,7 +11,7 @@
 
     using Moonlight.Streaming;
     using Moonlight.Utils;
-    //using Moonlight_common_binding;
+    using Moonlight_common_binding;
     using Windows.UI.Xaml.Controls.Primitives;
 
     /// <summary>
@@ -65,7 +65,7 @@
         /// </summary>
         private async void OnTimerTick(object sender, object e)
         {
-            Debug.WriteLine(computerPicker.SelectedIndex);
+            Debug.WriteLine("[i] " + computerPicker.SelectedIndex);
             await EnumerateEligibleMachines();
         }
 

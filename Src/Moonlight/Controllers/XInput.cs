@@ -1,4 +1,4 @@
-﻿//using Moonlight_common_binding;
+﻿using Moonlight_common_binding;
 using SharpDX.XInput;
 using System;
 using System.Collections.Generic;

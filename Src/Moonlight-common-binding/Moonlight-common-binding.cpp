@@ -1,5 +1,4 @@
 ﻿/* Binding between the main Moonlight app and Common */
-
 #include "Moonlight-common-binding.hpp"
 
 #include <stdlib.h>

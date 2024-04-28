@@ -11,7 +11,7 @@
 
     using Moonlight.Streaming;
     using Moonlight.Utils;
-    //using Moonlight_common_binding;
+    using Moonlight_common_binding;
 
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
